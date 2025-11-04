@@ -19,7 +19,7 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
     "noImplicitAny": false,
-    "types": ["node", "multer", "jest"]
+    "types": ["node"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
