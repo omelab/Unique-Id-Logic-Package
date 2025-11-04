@@ -1,6 +1,6 @@
 {
   "name": "@easysofts/id-logic",
-  "version": "1.0.1", 
+  "version": "1.0.2",
   "description": "Dynamic unique ID generation module for NestJS with Sequelize",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,15 +11,20 @@
     "build": "tsc -p tsconfig.build.json",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["nestjs", "sequelize", "id-generator", "unique-id"],
+  "keywords": [
+    "nestjs",
+    "sequelize",
+    "id-generator",
+    "unique-id"
+  ],
   "author": "Abu Bakar Siddique",
   "license": "MIT",
-   "peerDependencies": {
+  "peerDependencies": {
     "@nestjs/common": "^11.0.0",
     "@nestjs/sequelize": "^11.0.0",
     "luxon": "^3.0.0",
     "sequelize-typescript": "^2.1.6"
-  }, 
+  },
   "devDependencies": {
     "@types/luxon": "^3.7.1"
   }
