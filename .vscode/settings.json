@@ -1,0 +1,29 @@
+{
+  // Use the local TypeScript version (from node_modules)
+  "typescript.tsdk": "./node_modules/typescript/lib",
+
+  // Force ESLint to recognize this as a project root
+  "eslint.workingDirectories": ["."],
+
+  // Optional: auto-fix on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  // Format on save
+  "editor.formatOnSave": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Exclude build files from search
+  "search.exclude": {
+    "**/dist": true,
+    "**/node_modules": true
+  },
+  "files.exclude": {
+    "**/dist": true,
+    "**/node_modules": true
+  }
+}
